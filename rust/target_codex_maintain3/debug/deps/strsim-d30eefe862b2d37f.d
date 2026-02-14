@@ -1,0 +1,7 @@
+D:\FuzzyRough\rust\target_codex_maintain3\debug\deps\strsim-d30eefe862b2d37f.d: C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\strsim-0.11.1\src\lib.rs
+
+D:\FuzzyRough\rust\target_codex_maintain3\debug\deps\libstrsim-d30eefe862b2d37f.rlib: C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\strsim-0.11.1\src\lib.rs
+
+D:\FuzzyRough\rust\target_codex_maintain3\debug\deps\libstrsim-d30eefe862b2d37f.rmeta: C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\strsim-0.11.1\src\lib.rs
+
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\strsim-0.11.1\src\lib.rs:

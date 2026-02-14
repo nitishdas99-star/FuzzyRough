@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/frlearn_core",
+    "crates/frlearn_math",
+    "crates/frlearn_preprocess",
+    "crates/frlearn_neighbor",
+    "crates/frlearn_neighbours",
+    "crates/frlearn_descriptors",
+    "crates/frlearn_api",
+    "crates/frlearn_lab",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/nitishdas99-star/FuzzyRough"
+
+[workspace.dependencies]
+ndarray = "0.16.1"
+thiserror = "2.0.17"
+approx = "0.5.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rand = "0.8"
+
+
+
+
+
+
+
+

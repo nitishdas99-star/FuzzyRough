@@ -1,0 +1,20 @@
+[package]
+name = "frlearn_preprocess"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Preprocessing models (for example range normalization) for FuzzyRough."
+readme = "../../../README.md"
+keywords = ["fuzzy", "preprocessing", "normalization", "machine-learning"]
+categories = ["algorithms", "science"]
+
+[dependencies]
+ndarray.workspace = true
+frlearn_core = { path = "../frlearn_core" }
+frlearn_math = { path = "../frlearn_math" }
+
+[dev-dependencies]
+approx.workspace = true
+serde_json.workspace = true
+

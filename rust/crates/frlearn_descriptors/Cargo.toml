@@ -1,0 +1,29 @@
+[package]
+name = "frlearn_descriptors"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Descriptor and novelty-scoring models for fuzzy-rough workflows."
+readme = "../../../README.md"
+keywords = ["anomaly-detection", "novelty", "fuzzy", "rough-sets"]
+categories = ["algorithms", "science"]
+
+[features]
+default = []
+sae = []
+eif = []
+svm = []
+
+[dependencies]
+ndarray.workspace = true
+frlearn_core = { path = "../frlearn_core" }
+frlearn_neighbor = { path = "../frlearn_neighbor" }
+frlearn_math = { path = "../frlearn_math" }
+frlearn_preprocess = { path = "../frlearn_preprocess" }
+
+[dev-dependencies]
+approx.workspace = true
+
+
+

@@ -1,0 +1,27 @@
+[package]
+name = "frlearn_neighbours"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Neighbour-based fuzzy-rough classifiers such as NN and FRNN."
+readme = "../../../README.md"
+keywords = ["classification", "knn", "fuzzy", "rough-sets"]
+categories = ["algorithms", "science"]
+
+[dependencies]
+ndarray.workspace = true
+frlearn_core = { path = "../frlearn_core" }
+frlearn_neighbor = { path = "../frlearn_neighbor" }
+frlearn_preprocess = { path = "../frlearn_preprocess" }
+frlearn_math = { path = "../frlearn_math" }
+
+[dev-dependencies]
+approx.workspace = true
+serde_json.workspace = true
+
+[[bench]]
+name = "frnn_scoring"
+harness = false
+
+

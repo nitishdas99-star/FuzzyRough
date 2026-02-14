@@ -1,0 +1,206 @@
+{
+  "suite": "All",
+  "dataset": "Overlap",
+  "backend": "Bruteforce",
+  "models": [
+    {
+      "model": "NN",
+      "accuracy": 0.788,
+      "macro_f1": 0.7844013479077434,
+      "confusion": {
+        "v": 1,
+        "dim": [
+          3,
+          3
+        ],
+        "data": [
+          289,
+          44,
+          1,
+          63,
+          208,
+          62,
+          0,
+          42,
+          291
+        ]
+      },
+      "timing": {
+        "preprocess_ms": 6,
+        "frfs_ms": 1,
+        "frps_ms": 0,
+        "train_ms": 0,
+        "predict_ms": 2343
+      },
+      "n_train_used": 1000,
+      "dims_used": 10,
+      "selected_features": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "model": "FRNN",
+      "accuracy": 0.722,
+      "macro_f1": 0.7209918193386545,
+      "confusion": {
+        "v": 1,
+        "dim": [
+          3,
+          3
+        ],
+        "data": [
+          266,
+          67,
+          1,
+          72,
+          191,
+          70,
+          2,
+          66,
+          265
+        ]
+      },
+      "timing": {
+        "preprocess_ms": 6,
+        "frfs_ms": 1,
+        "frps_ms": 0,
+        "train_ms": 0,
+        "predict_ms": 2329
+      },
+      "n_train_used": 1000,
+      "dims_used": 10,
+      "selected_features": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "model": "FRONEC",
+      "accuracy": 0.722,
+      "macro_f1": 0.7209918193386545,
+      "confusion": {
+        "v": 1,
+        "dim": [
+          3,
+          3
+        ],
+        "data": [
+          266,
+          67,
+          1,
+          72,
+          191,
+          70,
+          2,
+          66,
+          265
+        ]
+      },
+      "timing": {
+        "preprocess_ms": 6,
+        "frfs_ms": 1,
+        "frps_ms": 0,
+        "train_ms": 0,
+        "predict_ms": 2334
+      },
+      "n_train_used": 1000,
+      "dims_used": 10,
+      "selected_features": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "model": "FROVOCO",
+      "accuracy": 0.722,
+      "macro_f1": 0.7209918193386545,
+      "confusion": {
+        "v": 1,
+        "dim": [
+          3,
+          3
+        ],
+        "data": [
+          266,
+          67,
+          1,
+          72,
+          191,
+          70,
+          2,
+          66,
+          265
+        ]
+      },
+      "timing": {
+        "preprocess_ms": 6,
+        "frfs_ms": 1,
+        "frps_ms": 0,
+        "train_ms": 0,
+        "predict_ms": 2316
+      },
+      "n_train_used": 1000,
+      "dims_used": 10,
+      "selected_features": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "novelty": {
+    "preprocess_ms": 11,
+    "n_train_inliers": 1000,
+    "n_test_total": 2000,
+    "descriptors": [
+      {
+        "name": "NND",
+        "roc_auc": 1.0,
+        "tpr_at_fpr_1pct": 1.0,
+        "tpr_at_fpr_5pct": 1.0,
+        "fit_ms": 0,
+        "score_ms": 4622
+      },
+      {
+        "name": "LNND",
+        "roc_auc": 1.0,
+        "tpr_at_fpr_1pct": 1.0,
+        "tpr_at_fpr_5pct": 1.0,
+        "fit_ms": 0,
+        "score_ms": 4899
+      }
+    ]
+  }
+}
